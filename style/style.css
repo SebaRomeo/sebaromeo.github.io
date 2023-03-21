@@ -1,0 +1,226 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+html, body{
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden; 
+}
+
+#gamecontainer {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  canvas {
+    position: absolute;
+    z-index: 1;
+    background: #2c2f33;
+    height: 1500px;
+    background: linear-gradient(180deg, #2c2f33 0%, #23272a  35%, #131516 100%);
+  }
+  
+  #gamestartscreen {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  /*HEADER*/
+
+  .header {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .header h3, h5{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header h5 {
+    font-size: 25px;
+  }
+
+  /*OVERVIEW*/
+
+  .overview{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    transition: 0.4s;
+  }
+
+  .overview-info {
+    margin-left: 5%;
+    transition: 0.4s;
+  }
+
+  .overview-info h3 {
+    margin-bottom: 15px;
+  }
+
+  .overview-info p {
+    margin-top: 5px;
+    color: rgb(150, 150, 150);
+  }
+
+  .overview-info a {
+    font-size: 50px;
+    display: inline-block;
+    margin: 15px 20px 0px 0px;
+  }
+
+  .company-section p {
+    color: rgb(150, 150, 150);
+  }
+
+  /*EXPERIENCE*/
+  .experience {
+    text-align: center;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .company-section {
+    margin-top: 30px;
+  }
+
+  .company-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .university-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+  }
+
+  /*SKILLS*/
+  
+  .skills h3{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+  }
+
+  .skills-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .skills-container h4 {
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+  }
+
+  .skills-container ul {
+    margin-top: 15px;
+    margin-left: 30px;
+    color: rgb(150, 150, 150);
+  }
+
+  .skills-container li {
+    color: rgb(150, 150, 150);
+  }
+
+  /*Footer*/
+  .footer {
+    margin-top: 70px;
+    padding: 0px 50px;
+    text-align: center;
+  }
+
+  .footer span {
+    color: rgb(100, 100, 100);;
+  }
+
+  .icons {
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+
+  /*RESPONSIVE*/
+@media(max-width: 768px) {
+
+  canvas {
+    height: 300vh
+  }
+
+  .header {
+    padding: 0px 20px;
+  }
+
+  .overview {
+    padding: 0px 20px;
+    flex-direction: column;
+  }
+
+  .overview img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .experience {
+    padding: 0px 20px;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+
+  .skills {
+    padding: 0px 20px;
+    margin-top: 35px;
+  }
+
+  .experience-overview {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .experience-overview h3, p{
+    text-align: center;
+  }
+
+  .overview-info{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .icons-container {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+  }
+}
