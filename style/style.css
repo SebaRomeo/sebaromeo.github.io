@@ -12,27 +12,9 @@ html, body{
     overflow-x: hidden; 
 }
 
-#gamecontainer {
-    width: 800px;
-    height: 600px;
-    border: 1px solid black;
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  canvas {
-    position: absolute;
-    z-index: 1;
-    background: #2c2f33;
-    height: 1500px;
-    background: linear-gradient(180deg, #2c2f33 0%, #23272a  35%, #131516 100%);
-  }
-  
-  #gamestartscreen {
-    position: absolute;
-    margin: 0 auto;
-    z-index: 2;
-  }
+body {
+  position: unset !important;
+}
 
   /*HEADER*/
 
@@ -169,10 +151,6 @@ html, body{
 
   /*RESPONSIVE*/
 @media(max-width: 768px) {
-
-  canvas {
-    height: 1600px;
-  }
 
   .header {
     padding: 0px 20px;
