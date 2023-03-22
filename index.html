@@ -11,6 +11,7 @@
     <title>Sebastian Romeo</title>
 </head>
 <body>
+    <div class="page-header">
     <div class="header">
         <h3>Sebastian Romeo</h4>
         <h5>Sofware Engineer</h5>
@@ -34,6 +35,7 @@
             </span>
         </div>
     </div>
+</div>
     <div class="experience">
         <div class="company-section">
             <img src="resources/Icons/jamcity.svg" alt="" class="company-icon">
@@ -87,7 +89,7 @@
     <script>
         $(document).ready(function($) {
         VANTA.NET({
-            el: "body",
+            el: ".page-header",
             mouseControls: true,
             touchControls: true,
             gyroControls: false,
@@ -97,8 +99,8 @@
             scaleMobile: 1.00,
             color: 0x757575,
             backgroundColor: 0x222222,
-            maxDistance: 25.00,
-            spacing: 20.00
+            maxDistance: 35.00,
+            spacing: 30.00
         })
     });
     </script>
