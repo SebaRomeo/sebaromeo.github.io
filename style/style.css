@@ -145,6 +145,7 @@ body {
     margin-top: 70px;
     padding: 0px 50px;
     text-align: center;
+    justify-content: center;
   }
 
   .footer span {
@@ -153,16 +154,15 @@ body {
 
   .icons {
     font-size: 50px;
-    text-decoration: none;
     margin-top: 50px;
     margin-bottom: 35px;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
   }
 
-  .icons a {
-    margin: 0px 10px 0px 0px;
+  #middle-link {
+    margin: 0px 30px;
   }
 
   /*RESPONSIVE*/
@@ -216,5 +216,15 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 40px;
+  }
+
+  .icons {
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
   }
 }
