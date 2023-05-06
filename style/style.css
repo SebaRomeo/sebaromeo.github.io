@@ -123,6 +123,11 @@ body {
     color: rgb(180, 180, 180);
   }
 
+  .skills-container h5{
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+  }
+
   .skills-container ul {
     margin-top: 15px;
     margin-left: 30px;
@@ -138,6 +143,28 @@ body {
     text-align: left;
     color: rgb(150, 150, 150);
     margin-top: 15px;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .project-container h5 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: rgb(180, 180, 180);
+  }
+
+  .project-container p {
+    margin-bottom: 15px;
+    color: rgb(150, 150, 150);
+  }
+
+  .project-container a{
+    margin-bottom: 15px;
+    text-decoration: none;
   }
 
   /*Footer*/
